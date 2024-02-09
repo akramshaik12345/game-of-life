@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ( 'code checout') {
+        stage ('code checout') {
             steps {
                 git 'https://github.com/akramshaik12345/game-of-life.git'
             }
