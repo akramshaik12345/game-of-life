@@ -7,7 +7,9 @@ pipeline {
             }
         }
         stage ('build') {
-            mvn compile
+            steps {
+                bat 'mvn compile'
+            }
         }
     }
 }
