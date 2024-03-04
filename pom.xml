@@ -42,9 +42,8 @@
                 <configuration>
                     <forkMode>once</forkMode>
                     <skip>true</skip>
-                    
-                    
-                </configuration>
+                    <argLine>-Xmx1024m</argLine>
+                 </configuration>
                 <executions>
                     <execution>
                         <id>unit-tests</id>
