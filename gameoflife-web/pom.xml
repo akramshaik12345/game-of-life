@@ -109,7 +109,7 @@
                         <version>2.9</version>
                         <configuration>
                             <forkMode>once</forkMode>
-                            <argLine>-Xmx1024m</argLine
+                            <argLine>-Xmx1024m</argLine>
                             <skip>true</skip>
                         </configuration>
                     </plugin>
